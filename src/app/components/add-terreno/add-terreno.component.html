@@ -1,0 +1,36 @@
+<div style="width: 400px; margin: auto;">
+    <div class="submit-form">
+<div class="form-group">
+    <label for="tittle">IdTerreno</label>
+    <input type="number"
+    class="form-control"
+    id="idTerreno"
+    [(ngModel)]="terreno.idTerreno"
+    name="idTerreno"/>
+</div>
+<div class="form-group">
+    <label for="tittle">Dimension</label>
+    <input type="number"
+    class="form-control"
+    id="idDimension"
+    [(ngModel)]="terreno.idDimension"
+    name="idTerreno"/>
+</div>
+<div class="form-group">
+    <label for="tittle">barrio</label>
+    <input type="text"
+    class="form-control"
+    id="barrio"
+    [(ngModel)]="terreno.barrio"
+    name="barrio"/>
+</div>
+<div class="form-group">
+    <label for="tittle">Calle Principal</label>
+    <input type="text"
+    class="form-control"
+    id="CallePrincipal"
+    [(ngModel)]="terreno.CallePrincipal"
+    name="CallePrincipal"/>
+</div>
+<button (click)="guardarTerreno()" class="btn btn-success">Enviar</button>
+</div>
